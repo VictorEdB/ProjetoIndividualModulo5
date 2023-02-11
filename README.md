@@ -13,5 +13,5 @@ essa lista ordenada de A-Z. Ordenar o CSS ajuda a encontrar mais rápido a
 propriedade que precisamos alterar.</h1>
 
 
-<h2>O que foi utilizado para fazer o projeto:
-Visual studio code</h2>
+<h2>O que foi utilizado para fazer o projeto:</h2>
+<h1>Visual studio code</h1>
