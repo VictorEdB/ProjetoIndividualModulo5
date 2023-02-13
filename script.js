@@ -1,18 +1,20 @@
 const readline = require('readline-sync');
+const chalk = require('chalk')
 
 let nome = [];
-let ajuda = "";
+let assis = "";
 
 
-while(ajuda != 'sair'){
+while(assis != 'sair'){
 
-    ajuda = readline.question('Digite o nome: ');
-    //exemplo: Color
+    assis = readline.question('Digite o nome: ');
 
-    nome.push(ajuda);
+    nome.push(assis);
 
-    ajuda = readline.question('Para sair digite "sair". Aperte Enter para continuar ');
-
+    assis = readline.question('Para sair digite "sair". Aperte Enter para continuar ');
+    
+    if(assis == 'sair'){
+    console.log(chalk.green(nome.sort().join('\n')));
 }
 
-console.log(nome.sort().join('\n'));
+}
