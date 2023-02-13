@@ -14,10 +14,7 @@ propriedade que precisamos alterar.
 
 
 <h2>O que foi utilizado para fazer o projeto:</h2>
-Visual studio code
-
-Readline-Sync
-
-Node.js
-
-Chalk
+<h1>Visual studio code</h1>
+<h1>Readline-Sync</h1>
+<h1>Node.js</h1>
+<h1>Chalk</h1>
